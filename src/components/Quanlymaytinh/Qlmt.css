@@ -1,0 +1,77 @@
+.qlmt {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left {
+    width: 20%;
+    background-color: #000000;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .logo p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background-color: #ddd;
+  }
+  
+  .right {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .computer {
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .computer.open {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .computer.close {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .computer img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+.key{
+    background: gray;
+}
